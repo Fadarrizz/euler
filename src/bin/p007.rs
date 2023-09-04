@@ -15,6 +15,7 @@ fn solve(n: u32) -> u32 {
 
 #[cfg(test)]
 mod tests {
+    #[test]
     fn test_sixth_prime() {
         assert_eq!(13, super::solve(6));
     }

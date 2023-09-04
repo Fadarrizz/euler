@@ -1,9 +1,5 @@
 pub type PrimeFactor<T> = (T, u32);
 
-pub fn lcm(n: u32) -> u32 {
-    unimplemented!();
-}
-
 pub fn prime_factors(n: u32) -> Vec<PrimeFactor<u32>> {
     let mut factors = vec![];
     let mut prime = 2;

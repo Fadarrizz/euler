@@ -6,3 +6,6 @@ mod p005;
 mod p006;
 mod p007;
 mod p008;
+mod p009;
+mod p010;
+mod p011;
